@@ -63,7 +63,7 @@ class GameObject: SKSpriteNode, GameProtocol {
     }
     
     func Update() {
-        <#code#>
+        
     }
     
     
