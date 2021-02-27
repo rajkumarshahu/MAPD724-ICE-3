@@ -1,3 +1,3 @@
-# ICE-2
+# ICE-3
 
 ![In-Class Exercise](./ice-03.gif)
