@@ -71,6 +71,11 @@
 		EB5BA3B525E7207600BEFE0B /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5BA3B425E7207600BEFE0B /* ocean.png */; };
 		EB5BA3B825E7270F00BEFE0B /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3B725E7270F00BEFE0B /* GameProtocol.swift */; };
 		EB5BA3C125E727CC00BEFE0B /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3C025E727CC00BEFE0B /* GameObject.swift */; };
+		EB5BA3C525E72E3400BEFE0B /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3C425E72E3400BEFE0B /* Ocean.swift */; };
+		EB5BA3C925E73C2300BEFE0B /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3C825E73C2300BEFE0B /* Island.swift */; };
+		EB5BA3CC25E7419A00BEFE0B /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3CB25E7419A00BEFE0B /* Cloud.swift */; };
+		EB5BA3CF25E746E100BEFE0B /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3CE25E746E100BEFE0B /* Plane.swift */; };
+		EB5BA3D325E74B5700BEFE0B /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5BA3D225E74B5600BEFE0B /* CollisionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +145,11 @@
 		EB5BA3B425E7207600BEFE0B /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
 		EB5BA3B725E7270F00BEFE0B /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		EB5BA3C025E727CC00BEFE0B /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		EB5BA3C425E72E3400BEFE0B /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
+		EB5BA3C825E73C2300BEFE0B /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		EB5BA3CB25E7419A00BEFE0B /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		EB5BA3CE25E746E100BEFE0B /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		EB5BA3D225E74B5600BEFE0B /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +182,8 @@
 		EB5BA32B25E71DEC00BEFE0B /* MAPD724-ICE-3 */ = {
 			isa = PBXGroup;
 			children = (
+				EB5BA3D125E74B3500BEFE0B /* Managers */,
+				EB5BA3C325E72E1800BEFE0B /* GameObjects */,
 				EB5BA3BA25E7278100BEFE0B /* Core */,
 				EB5BA32C25E71DEC00BEFE0B /* AppDelegate.swift */,
 				EB5BA32E25E71DEC00BEFE0B /* GameScene.sks */,
@@ -287,6 +299,25 @@
 				EB5BA3C025E727CC00BEFE0B /* GameObject.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		EB5BA3C325E72E1800BEFE0B /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BA3C425E72E3400BEFE0B /* Ocean.swift */,
+				EB5BA3C825E73C2300BEFE0B /* Island.swift */,
+				EB5BA3CB25E7419A00BEFE0B /* Cloud.swift */,
+				EB5BA3CE25E746E100BEFE0B /* Plane.swift */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		EB5BA3D125E74B3500BEFE0B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EB5BA3D225E74B5600BEFE0B /* CollisionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,9 +447,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB5BA33325E71DEC00BEFE0B /* GameScene.swift in Sources */,
+				EB5BA3CF25E746E100BEFE0B /* Plane.swift in Sources */,
+				EB5BA3D325E74B5700BEFE0B /* CollisionManager.swift in Sources */,
 				EB5BA3B825E7270F00BEFE0B /* GameProtocol.swift in Sources */,
 				EB5BA33525E71DEC00BEFE0B /* GameViewController.swift in Sources */,
+				EB5BA3C925E73C2300BEFE0B /* Island.swift in Sources */,
 				EB5BA32D25E71DEC00BEFE0B /* AppDelegate.swift in Sources */,
+				EB5BA3CC25E7419A00BEFE0B /* Cloud.swift in Sources */,
+				EB5BA3C525E72E3400BEFE0B /* Ocean.swift in Sources */,
 				EB5BA3C125E727CC00BEFE0B /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
